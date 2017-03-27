@@ -1,7 +1,7 @@
 # Ford Mustang
 
 ## Description
-A ford Mustang enthusiast site https://aganyaal.github.io/FordMustang
+A ford Mustang enthusiast site https://github.io/aganyaal/FordMustang
 
 
 ## Author
