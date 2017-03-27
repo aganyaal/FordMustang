@@ -1,0 +1,361 @@
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+#menu{
+  text-align: center;
+  background:black;
+  color: red;
+  background-image: url(../media/background1.jpg);
+  background-size: cover;
+}
+#highlight{
+  color: red;
+  text-decoration: underline;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 1s;
+    padding-top: 10%;
+    text-align:center;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+
+}
+
+.sidenav a:hover{
+    color: #f1f1f1;
+}
+.navi{
+  background-image: url(../media/steering.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+body {
+  overflow-x: hidden;
+  background-color: #c0c0c0;
+}
+
+.sound {
+  opacity: 0.001;
+  display: none;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 100vh;
+  text-align: center;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: black;
+}
+
+.video {
+  height: 50vh;
+  width: 100vw;
+  cursor: crosshair;
+}
+
+#one {
+  display: none;
+  width: 30vw;
+}
+
+#two {
+  display: none;
+  width: 30vw;
+}
+
+#three {
+  display: none;
+  width: 30vw;
+}
+
+#four {
+  display: none;
+  width: 30vw;
+}
+
+#secondClass {
+  display: flex;
+  width: 100vw;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-image: url(../media/background1.jpg);
+  background-size: contain;
+}
+
+.flex-item {
+  width: 300px;
+  height: 200px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#firstgen {
+  background-image: url(../media/firstgen.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#secgen {
+  background-image: url(../media/secgen.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#thirdgen {
+  background-image: url(../media/thirdgen.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#fourthgen {
+  background-image: url(../media/fourthgen.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#fifthgen {
+  background-image: url(../media/fifthgen.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#sixthgen {
+  background-image: url(../media/sixthgen.jpg);
+  background-repeat: no-repeat;
+}
+
+.container1 {
+  position: relative;
+  width: 50%;
+}
+
+.overlay1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+}
+
+.container1:hover .overlay1 {
+  opacity: 1;
+}
+
+.text1 {
+  color: blue;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-family: 'VT323', monospace;
+  transform: translate(-50%, -50%);
+  cursor: progress;
+}
+
+.container2 {
+  position: relative;
+  width: 50%;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+}
+
+.container2:hover .overlay2 {
+  opacity: 1;
+}
+
+.text2 {
+  color: blue;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-family: 'VT323', monospace;
+  transform: translate(-50%, -50%);
+  cursor: progress;
+}
+
+.container3 {
+  position: relative;
+  width: 50%;
+}
+
+.overlay3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+}
+
+.container3:hover .overlay3 {
+  opacity: 1;
+}
+
+.text3 {
+  color: blue;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-family: 'VT323', monospace;
+  transform: translate(-50%, -50%);
+  cursor: progress;
+}
+
+.container4 {
+  position: relative;
+  width: 50%;
+}
+
+.overlay4 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+}
+
+.container4:hover .overlay4 {
+  opacity: 1;
+}
+
+.text4 {
+  color: blue;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-family: 'VT323', monospace;
+  transform: translate(-50%, -50%);
+  cursor: progress;
+}
+
+.container5 {
+  position: relative;
+  width: 50%;
+}
+
+.overlay5 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+}
+
+.container5:hover .overlay5 {
+  opacity: 1;
+}
+
+.text5 {
+  color: blue;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-family: 'VT323', monospace;
+  transform: translate(-50%, -50%);
+  cursor: progress;
+}
+
+.container6 {
+  position: relative;
+  width: 50%;
+}
+
+.overlay6 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+}
+
+.container6:hover .overlay6 {
+  opacity: 1;
+}
+
+.text6 {
+  color: blue;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-family: 'VT323', monospace;
+  transform: translate(-50%, -50%);
+  cursor: progress;
+}
+#bgvid{
+  position: fixed;
+  top: 50%;
+  left:50%;
+  min-width: 100%;
+  min-height: 100%;
+  width:auto;
+  height: auto;
+  z-index: -1;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform:translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: url(../media/shelby.jpg) no-repeat;
+  background-size: cover;
+}

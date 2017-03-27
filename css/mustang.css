@@ -1,0 +1,145 @@
+body{
+	overflow-x: hidden;
+	background-color: black;
+	text-align: center;
+}
+#one{
+	background-color: black;
+	min-height: 200px;
+}
+
+#two{
+	background-color: black;
+	min-height: 200px;
+}
+
+
+.engine {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  padding: 10px;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background:url(../assets/logo.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.transmission {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  padding: 10px;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background:url(../assets/logo.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.tires {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  padding: 10px;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background:url(../assets/logo.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.interior {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  padding: 10px;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background:url(../assets/logo.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.exterior {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  padding: 10px;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background:url(../assets/logo.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.technology {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  padding: 10px;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background:url(../assets/logo.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.eng:hover .engine {
+  opacity: 1;
+}
+
+.trm:hover .transmission {
+  opacity: 1;
+}
+
+.tir:hover .tires {
+  opacity: 1;
+}
+
+.int:hover .interior {
+  opacity: 1;
+}
+
+.ext:hover .exterior {
+  opacity: 1;
+}
+
+.tech:hover .technology {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
