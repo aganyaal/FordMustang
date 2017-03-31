@@ -2,6 +2,7 @@
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
 #menu{
   text-align: center;
   background:black;
@@ -9,10 +10,12 @@
   background-image: url(../media/background1.jpg);
   background-size: cover;
 }
+
 #highlight{
   color: red;
   text-decoration: underline;
 }
+
 .sidenav {
     height: 100%;
     width: 0;

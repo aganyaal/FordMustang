@@ -1,18 +1,18 @@
-body{
-	overflow-x: hidden;
-	background-color: black;
-	text-align: center;
-}
-#one{
-	background-color: black;
-	min-height: 200px;
+body {
+  overflow-x: hidden;
+  background-color: black;
+  text-align: center;
 }
 
-#two{
-	background-color: black;
-	min-height: 200px;
+#one {
+  background-color: black;
+  min-height: 200px;
 }
 
+#two {
+  background-color: black;
+  min-height: 200px;
+}
 
 .engine {
   position: absolute;
@@ -25,8 +25,8 @@ body{
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background:url(../assets/logo.jpg);
-  background-size:cover;
+  background: url(../assets/logo.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -41,8 +41,8 @@ body{
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background:url(../assets/logo.jpg);
-  background-size:cover;
+  background: url(../assets/logo.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -57,8 +57,8 @@ body{
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background:url(../assets/logo.jpg);
-  background-size:cover;
+  background: url(../assets/logo.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -73,8 +73,8 @@ body{
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background:url(../assets/logo.jpg);
-  background-size:cover;
+  background: url(../assets/logo.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -89,8 +89,8 @@ body{
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background:url(../assets/logo.jpg);
-  background-size:cover;
+  background: url(../assets/logo.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -105,8 +105,8 @@ body{
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background:url(../assets/logo.jpg);
-  background-size:cover;
+  background: url(../assets/logo.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
